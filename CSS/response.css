@@ -1,0 +1,62 @@
+/* navigation section */
+.navbar{
+    flex-direction: column;
+    height: 110px;
+}
+.navbar ul li a{
+    font-size: 0.9rem;
+    padding: 0px 5px;
+}
+.logo {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+/* home section */
+.home{
+    height: 580px  ;
+    padding: 3px 68px ;
+}
+.home::before{
+    
+    margin-top: 110px ;
+    
+}
+.home::after{
+   margin-top: 110px ;
+
+}
+.home p{
+    font-size: 16px ;
+}
+.btn{
+    font-size: 1rem;
+    padding: 4px 15px;
+}
+
+/* podcast section */
+.podcast-item{
+   flex-wrap: wrap;
+   padding: 20px;
+}
+.podcast-item img{
+    width: 56px;
+    height: auto;
+
+}
+
+/* category section */
+.category
+{
+    flex-direction: column;
+}
+
+/* contact section */
+.contact{
+    padding: 3px 50px;
+}
+/* utility classes */
+.prime{
+    /* color: brown; */
+    font-size: 30px;
+}
