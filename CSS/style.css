@@ -30,6 +30,7 @@
     /* background-color: #14181C; */
     background: url('../img/best1.jpg') no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     position: absolute;
     opacity: 0.1;
     margin-top: 71.81px;
@@ -118,6 +119,7 @@ li a:hover {
     content: '';
     background: url('../img/best2.jpg') no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
     position: absolute;
     opacity: 0.1;
     /* margin-top: 71.81px; */
@@ -187,6 +189,7 @@ li a:hover {
     content: '';
     background: url('../img/contact-us.jpg')no-repeat center center/cover;
     position: absolute;
+    background-attachment: fixed;
     opacity: 0.1;
 
 

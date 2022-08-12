@@ -44,6 +44,12 @@
     height: auto;
 
 }
+.podcast-container::before{
+    height: 47.5%;
+}
+.podcast-container::after{
+    height: 47.5%;
+}
 
 /* category section */
 .category
