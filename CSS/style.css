@@ -185,6 +185,9 @@ li a:hover {
     color: white;
 
 }
+.contact h1{
+    padding-top: 45px;
+}
 .contact::before{
     content: '';
     background: url('../img/contact-us.jpg')no-repeat center center/cover;
@@ -212,7 +215,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 34px;  
+  padding: 5px;  
 }
 
 .contact-box label{
