@@ -14,16 +14,18 @@
 }
 /* home section */
 .home{
-    height: 580px  ;
+    height: 420px  ;
     padding: 3px 68px ;
 }
 .home::before{
     
     margin-top: 110px ;
+    height:40%;
     
 }
 .home::after{
    margin-top: 110px ;
+   height:40%;
 
 }
 .home p{
@@ -33,15 +35,28 @@
     font-size: 1rem;
     padding: 4px 15px;
 }
-
+0
 /* podcast section */
 .podcast-item{
    flex-wrap: wrap;
    padding: 20px;
 }
+.podcast-container::before{
+    height: 47%;
+}
+.podcast-container::after{
+    height: 47%;
+}
+.podcast-container {
+    padding:3px 68px;
+}
+.podcast-item {
+    
+}
 .podcast-item img{
     width: 56px;
     height: auto;
+   
 
 }
 
@@ -49,8 +64,18 @@
 .category
 {
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
+.category .box{
+    margin: 11px 20px;
+}
+.category-container{
+    
+}
+.category .box img {
+    height: 150px;
+}
 /* contact section */
 .contact{
     padding: 3px 50px;
